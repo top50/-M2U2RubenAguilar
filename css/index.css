@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 0 auto;
+}
+.row{
+    max-width: 80rem;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    margin:0 auto;
+    justify-content: center;
+    
+
+}
+.menu{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+.menu a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.titulo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.titulo h1{
+    text-align: center;
+    font-size: 45px;
+    color: #0029A6;
+}
+.titulo h2{
+    color: #FBBA00;
+    text-align: center;
+    font-size: 45px;
+
+}
+.card{
+    width: 40%;
+    margin: 0 5px;  
+    background: #f7f9ff;
+}
+.card h1{
+    text-align: center;
+    color: #ff5c71;
+    font-weight: 900;
+    padding: 15px;
+}
+.card p{
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 5px;
+    color: #3b3b3b;
+}
+.card .img{
+width:100%;
+height: auto;
+}
+.card .img img{
+    width: 100%;
+   overflow: hidden;
+}
+.card-form{
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.card-form .myform{
+    width: 30%;
+    display: flex;
+   flex-direction: column;
+}
+.card-form .myform input[type=text]{
+    margin: 9px;
+    padding: 10px;
+    border: solid 1px #e7e7e7;
+    background: #effeff;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #3b3b3b;
+}
+.card-form .myform .btn-enviar{
+    margin: 6px;
+    padding: 8px;
+    border: none;
+    background: #0029A6;
+    color: #eeeeee;
+    font-size: 18px;
+    transition: all ease-out 0.2ms;
+    cursor: pointer;
+}
+.card-form .myform .btn-enviar:hover{
+   background: #0486ff;
+}
+.card-form .myform .btn_calcular{
+    margin: 6px;
+    padding: 8px;
+    border: none;
+    background: #ff6c98;
+    color: #eeeeee;
+    font-size: 18px;
+    transition: all ease-out 0.2ms;
+    cursor: pointer;
+}
+.activo{
+    background: #f00149;
+    color: #eeeeee;
+    font-size: 18px;
+    transition: all ease-out 0.2ms;
+    cursor: pointer;
+    margin: 6px;
+    padding: 8px;
+    border: none;
+}
+.resultados{
+    display: block;
+
+}
+.resultados p{
+    font-size: 19px;
+    font-weight: 800;
+    color: #f00149;
+    text-align: center;
+}
+.calculo{
+    display: block;
+
+}
+.calculo h1{
+    font-size: 25px;
+    color: #3b3b3b;
+    font-weight: 600;
+}
+.desdcription{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 10px auto; 
+    padding: 10px;
+    background: #d6fff8;
+    border-radius: 8px;
+}
+.desdcription h1{
+    text-align: center;
+    color: #3b3b3b;
+    font-size: 30px;
+    margin-bottom: 9px;
+}
+.desdcription ul{
+    list-style: none;
+    display: block;
+}
+.desdcription ul li{
+    list-style: none;
+    padding: 5px;
+}
+.form{
+    width: 50%;
+    display: flex;
+    flex-direction: column; 
+    margin: 0 auto
+}
+.form input[type=number]{
+    border: none;
+    padding: 6px;
+    height: 30px;
+    margin: 9px;
+    background: #eeeeee;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 1px 2px 3px #adadad;
+}
+.form input[type=button]{
+    border: none;
+    padding: 6px;
+    margin: 2px;
+    background: #ff5c71;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: #FBBA00;
+    font-size: 20px;
+    cursor: pointer;
+    content:"e913";
+}
+.form input[type=button]::after{
+    content: "\e913";
+}
+.footer{
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+}
+.footer a{
+text-decoration: none;
+padding: 8px;
+background: #FBBA00;
+margin: 8px;
+border-radius: 6px;
+color: azure;
+cursor: pointer;
+transition: all 1s;
+
+}
+.footer a:hover{
+    box-shadow: 2px 2px 7px #3b3b3b;
+    color: #52000b;
+}
+.diagramas{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.diagramas img{
+    width: 50%;
+}
+@media(max-width:68rem){
+    .card, .form, .desdcription{
+        width: 100%;
+    }
+    .diagramas img{
+        width: 100%;
+    }
+    .card-form .myform{
+        width: 100%;
+    }
+}

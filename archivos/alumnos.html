@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Uno</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="titulo">
+                <h1>Diplomado Reacjs</h1>
+            <h2>Alumno. Ruben dario Aguilar Alvarez</h2>
+            </div>
+            <div class="menu">
+                <a href="../index.html"><span class="material-symbols-outlined">
+                    arrow_back_ios
+                    </span>Regresar</a>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="desdcription">
+            <h1>Crear un algoritmo que le permita al usuario ingresar:</h1>
+           <ul>
+            <li>
+               <p> a. Nombre de un estudiante.</p>
+            </li>
+            <li>
+               <p> b. Cantidad de materias o asignaturas a matricular.</p>
+            </li>
+            <li>
+               <p> c. Valor de cada materia o asignatura,</p>
+            </li>
+            <li>
+    
+               <p> d. Valor de la papelería: que tiene un costo fijo de $20.000 y el carné con valor de $8.000.</p> 
+            </li>
+            <li>
+                <p>e. Descuento del 20% sobre el costo de las materias.</p>
+            </li>
+           </ul>
+               <p>
+                Por medio del algoritmo imprimir el valor total de las materias que matriculó el estudiante con el
+descuento del 20% más los costos fijos.
+               </p> 
+             
+        </div>
+        <div class="row">
+            <div class="card-form">
+                <form  id="myform" class="myform">
+                    <input type="text" id="nombre" placeholder="Nombre Del Estudiante" required>
+                    <input type="text" id="materia" placeholder="Ingrese Nombre Materia" required>
+                    <input type="text" id="valor"  required>
+                    <button id="btn_enviar" class="btn-enviar">Enviar <span class="material-symbols-outlined">
+                        touch_app
+                        </span></button>
+                    <button id="btn_calcular" class="btn_calcular" disabled>Calcular</button>
+                    </form>
+                    
+                    <div id="resultados" class="resultados"></div>
+                    
+                    <h2 id="calculo" class="calculo"></h2>
+            </div>
+            
+        </div>
+    </div>
+
+   <script src="../js/materia.js"></script> 
+</body>
+</html>
