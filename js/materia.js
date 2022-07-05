@@ -34,7 +34,7 @@ function Limpiar(){
     valor.value="";
 }
 function contarMaterias(){
-    contador=3;
+    let contador=document.getElementById('asignamateria').value;;
     for(;contador<misMaterias.length;contador++){
          contador++;
          if(contador=contador){
